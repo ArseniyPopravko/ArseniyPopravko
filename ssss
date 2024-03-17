@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,800&display=swap');
+body{
+    background-color: #BBBBBB;
+    font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+}
