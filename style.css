@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,800&display=swap');
+.title{
+    
+    color: black;
+    text-align: center;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 48px;
+}
+body{
+    background-color: grey;
+    font-family: "Inter Tight", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: italic;
+    
+    
+}
+.main_container{
+    display: flex;
+    flex-direction: column;
+}
+.quest_block{
+    display: flex;
+    flex-direction: column;
+}
+.answer_block{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+.quest{
+    background-color: #D9D9D9;
+    font-family: Extra Bold Italic;
+    font-size: 36px;
+    color: #011F3A;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: solid 2px #52B2BF;
+    text-align: center;
+}
+.ans{
+    font-family: Extra Bold Italic;
+    font-size: 36px;
+    background-color: #D9D9D9;
+}
+.button{
+    background-color: #52B2BF;
+    font-family: Extra Bold Italic;
+    font-size: 24px;
+    border-radius: 6px;
+    margin-bottom: 200px;
+    padding: 10px;
+    margin-left: 570px;
+}
+.button:hover{
+    background-color:#0018F9;
+    box-shadow: 5px 5px 5px black;
+}
