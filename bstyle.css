@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@1,800&display=swap');
+body{
+    background-color: #BBBBBB;
+    font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: italic;
+}
+.main_header_container.{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.main_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button1{
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-top: 5px;
+    width: 25%;
+    text-align: center;
+}
+.button1:hover{
+    background-color: #0018F9;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.button{
+    border-radius: 10px;
+    background-color: #2C3E4C;
+    width: 50%;
+    padding: 10px;
+    color: #FFFFFF;
+
+}
+.text{
+    color: #011F3A;
+    font-size: 24px;
+}
+.login{
+    border-radius: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+}
+.img{
+    background-color: #BBBBBB;
+    text-align: center;
+}
+.login:hover{
+    background-color: #0018F9;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
